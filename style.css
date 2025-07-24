@@ -105,6 +105,22 @@
 
 /* Latest Deals */
 
+.latest-h-p{
+    text-align: center;
+}
+.latest-head{
+    font-size: 50px;
+    font-weight: bold;
+}
+.span-color{
+    color: #E95A08;
+}
+.latest-pass{
+    font-size: 22px;
+    width: 45%;
+    margin-left: 520px;
+}
+
 .latest_text {
   text-align: center;
   margin-top: 70px;
@@ -168,6 +184,37 @@
 .text_card a {
   color: white;
 }
+
+/* Join the colorful Bunch */
+
+.join-bunch{
+    background-image: url(Picture/news-letter-bg.png);
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.join-head{
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+    
+}
+.input1{
+    background-color: white;
+    width: 500px;
+}
+.btn-join{
+    background-color: #E95A08;
+    color: white;
+    padding: 0px 20px;
+    width: 200px;
+}
+.join-e-b{
+    margin-top: 5px;
+}
+
 
 
 
@@ -259,6 +306,12 @@
 
     /* Latest Deals */
     
+    .latest-pass{
+        font-size: 22px;
+        width: 100%;
+        margin-left: 2px;
+        margin-bottom: 30px;
+    }
     .cards{
         flex-direction: column;
         margin-left: 2px;
@@ -291,4 +344,31 @@
         margin-left: 5px;
     }
 
+    /* Join the colorful Bunch */
+
+    .join-bunch{
+        background-repeat: no-repeat;
+    }
+    .join-bunch{
+        width: 100%;
+        height: 300px;
+        background-size: 100%;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .join-head{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .input1{
+        background-color: white;
+        width: 200px;
+    }
+    .btn-join{
+        padding: 0px 20px;
+        width: 100px;
+    }
+    .join-e-b{
+        margin-top: 5px;
+    }
 }
