@@ -262,18 +262,19 @@
     .cards{
         flex-direction: column;
         margin-left: 2px;
+        margin-bottom: 50px;
     }
     .right_card img {
-        max-width: 370px
+        max-width: 410px;
+        margin-left: 5px;
     }
     .text_card {
-        top: 5px;
-        left: 20px;
+        top: 30px;
         margin: 50px;
     }
     .text_right {
-        top: 20px;
-        left: 20px;
+        top: 30px;
+        left: 80px;
     }
     .noto_saris{
         width: 100%;
@@ -284,6 +285,10 @@
     }
     #text{
         font-size: 20px;
+    }
+    .small_card img{
+        width: 100%;
+        margin-left: 5px;
     }
 
 }
