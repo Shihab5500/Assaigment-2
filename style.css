@@ -103,9 +103,71 @@
     font-size: 22px;
 }
 
+/* Latest Deals */
 
+.latest_text {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.latest_text h2 {
+  font-size: 3.13rem;
+  margin-bottom: 25px;
+}
+.latest_text p {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.37rem;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-left: 20px;
+}
+.left_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+.right_card {
+  position: relative;
+}
+.right_card img {
+  border-radius: 8px;
+  max-width: 753px;
+}
+.small_card {
+  position: relative;
+}
+.small_card img {
+  border-radius: 8px;
+}
+.text_card {
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  text-align: center;
+}
+.text_right {
+  top: 174px;
+  left: 194px;
+}
+#text {
+  font-size: 2.5rem;
+}
+#text_small {
+  font-size: 1.75rem;
+}
 
+.text_card h3 {
+  color: white;
+  font-size: 1.25rem;
+}
+.text_card a {
+  color: white;
+}
 
 
 
@@ -195,6 +257,33 @@
         margin-left: 30px;
     }
 
-
+    /* Latest Deals */
+    
+    .cards{
+        flex-direction: column;
+        margin-left: 2px;
+    }
+    .right_card img {
+        max-width: 370px
+    }
+    .text_card {
+        top: 5px;
+        left: 20px;
+        margin: 50px;
+    }
+    .text_right {
+        top: 20px;
+        left: 20px;
+    }
+    .noto_saris{
+        width: 100%;
+    }
+    #text_small {
+        font-size: 1.75rem;
+        width: 30%;
+    }
+    #text{
+        font-size: 20px;
+    }
 
 }
