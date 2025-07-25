@@ -17,6 +17,9 @@
     margin-right: 40px;
     
 }
+.sss{
+    display: inline;
+}
 
 /* ALWAYS FRESH FLOWER */
 
@@ -260,9 +263,12 @@
     .button-nav{
     display: none;
     }
-    .nav-menu img{
-        margin-left: 100px;
+    .sss{
+        display: block;
+        margin-left: 160px;
+        margin-top: 50px;
     }
+
 
    
     /* ALWAYS FRESH FLOWER */
